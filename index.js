@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const port = 4000;
 const axios = require('axios');
 const config = require('./config.js');
 axios.defaults.baseURL = config.BASE_URL;
 axios.defaults.headers.common['Authorization'] = config.AUTH_TOKEN;
+
+app.use(cors());
 
 app.all('/*', (req, res) => {
   const config = {
