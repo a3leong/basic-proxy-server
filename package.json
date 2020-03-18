@@ -1,0 +1,24 @@
+{
+  "name": "basicproxyserver",
+  "version": "0.0.1",
+  "description": "Basic proxy server for handling CORS issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a3leong/basic-proxy-server.git"
+  },
+  "author": "Aaron Leong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a3leong/basic-proxy-server/issues"
+  },
+  "homepage": "https://github.com/a3leong/basic-proxy-server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
