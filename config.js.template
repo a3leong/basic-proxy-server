@@ -1,0 +1,2 @@
+exports.AUTH_TOKEN = '<AUTH_TOKEN>';
+exports.BASE_URL = '<BASE_URL>';
